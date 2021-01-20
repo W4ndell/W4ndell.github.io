@@ -6,7 +6,7 @@
   <link href="http://blog.wendell.pro/atom.xml" rel="self"/>
   
   <link href="http://blog.wendell.pro/"/>
-  <updated>2021-01-20T09:08:45.521Z</updated>
+  <updated>2021-01-20T10:36:04.290Z</updated>
   <id>http://blog.wendell.pro/</id>
   
   <author>
@@ -21,14 +21,16 @@
     <link href="http://blog.wendell.pro/2021/01/20/hello-world-2/"/>
     <id>http://blog.wendell.pro/2021/01/20/hello-world-2/</id>
     <published>2021-01-20T08:47:53.000Z</published>
-    <updated>2021-01-20T09:08:45.521Z</updated>
+    <updated>2021-01-20T10:36:04.290Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><p>ll</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;</summary>
+    <summary type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;ll&lt;/p&gt;
+</summary>
       
     
     
