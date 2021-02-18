@@ -3,7 +3,10 @@
   <entry>
     <title>BlackHat2020 议题 「When TLS Hacks You」 复现</title>
     <url>/2021/01/20/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/</url>
-    <content><![CDATA[<p>When TLS Hacks You出了一个利用tls进行ssrf的姿势,而且赵师傅在<a href="https://www.zhaoj.in/read-6681.html">西湖论剑2020 Web HelloDiscuzQ 题</a>也做了一些新研究,很早之前就想学习一下这个,不过一直咕,趁现在空下来了,研究一下.</p>
+    <content><![CDATA[<blockquote>
+<p>本文首发于先知社区,链接:<a href="https://xz.aliyun.com/t/9177">https://xz.aliyun.com/t/9177</a></p>
+</blockquote>
+<p>When TLS Hacks You出了一个利用tls进行ssrf的姿势,而且赵师傅在<a href="https://www.zhaoj.in/read-6681.html">西湖论剑2020 Web HelloDiscuzQ 题</a>也做了一些新研究,很早之前就想学习一下这个,不过一直咕,趁现在空下来了,研究一下.</p>
 <a id="more"></a>
 <p>这个是一个ssrf的新姿势,如果可以利用的话,只要对方服务器可以利用https协议,就可以打内网服务.</p>
 <p>但是打过去的payload会有一些垃圾字符,常见可以利用的是memcached,ftp和smtp,而redis据原作者所说,因为0字节会截断,不能攻击</p>
