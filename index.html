@@ -160,7 +160,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="">
-    <link itemprop="mainEntityOfPage" href="http://blog.wendell.pro/2021/01/20/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/">
+    <link itemprop="mainEntityOfPage" href="http://blog.wendell.pro/2021/01/29/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/avatar.jpg">
@@ -174,7 +174,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/01/20/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/" class="post-title-link" itemprop="url">BlackHat2020 议题 「When TLS Hacks You」 复现</a>
+            <a href="/2021/01/29/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/" class="post-title-link" itemprop="url">BlackHat2020 议题 「When TLS Hacks You」 复现</a>
         </h2>
 
         <div class="post-meta">
@@ -184,14 +184,14 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2021-01-20 16:47:53" itemprop="dateCreated datePublished" datetime="2021-01-20T16:47:53+08:00">2021-01-20</time>
+              <time title="Created: 2021-01-29 16:47:53" itemprop="dateCreated datePublished" datetime="2021-01-29T16:47:53+08:00">2021-01-29</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-02-18 15:08:51" itemprop="dateModified" datetime="2021-02-18T15:08:51+08:00">2021-02-18</time>
+                <time title="Modified: 2021-02-25 15:17:44" itemprop="dateModified" datetime="2021-02-25T15:17:44+08:00">2021-02-25</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -199,7 +199,7 @@
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Web%E5%AE%89%E5%85%A8/" itemprop="url" rel="index"><span itemprop="name">-Web安全</span></a>
+                  <a href="/categories/Web%E5%AE%89%E5%85%A8/" itemprop="url" rel="index"><span itemprop="name">Web安全</span></a>
                 </span>
             </span>
 
@@ -220,7 +220,340 @@
 <p>When TLS Hacks You出了一个利用tls进行ssrf的姿势,而且赵师傅在<a target="_blank" rel="noopener" href="https://www.zhaoj.in/read-6681.html">西湖论剑2020 Web HelloDiscuzQ 题</a>也做了一些新研究,很早之前就想学习一下这个,不过一直咕,趁现在空下来了,研究一下.</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2021/01/20/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/#more" rel="contents">
+              <a class="btn" href="/2021/01/29/BlackHat2020%20%E8%AE%AE%E9%A2%98%20When%20TLS%20Hacks%20You%20%E5%A4%8D%E7%8E%B0/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="">
+    <link itemprop="mainEntityOfPage" href="http://blog.wendell.pro/2021/01/25/ssrf-%E6%80%BB%E7%BB%93-md-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/avatar.jpg">
+      <meta itemprop="name" content="Wendell">
+      <meta itemprop="description" content="Wendell blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wendell's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/25/ssrf-%E6%80%BB%E7%BB%93-md-1/" class="post-title-link" itemprop="url">ssrf_总结.md</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-01-25 15:00:18" itemprop="dateCreated datePublished" datetime="2021-01-25T15:00:18+08:00">2021-01-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-02-25 15:17:39" itemprop="dateModified" datetime="2021-02-25T15:17:39+08:00">2021-02-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web%E5%AE%89%E5%85%A8/" itemprop="url" rel="index"><span itemprop="name">Web安全</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="导言"><a href="#导言" class="headerlink" title="导言"></a>导言</h2><p>服务端请求伪造(SSRF),简单来说就是服务器以其身份替攻击者发生任意请求,因为服务器所处的特殊网络位置,很可能有机会访问内部资源,在元环境中,可能会存在包含敏感凭证的元数据断点,造成很严重的危害</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/01/25/ssrf-%E6%80%BB%E7%BB%93-md-1/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="">
+    <link itemprop="mainEntityOfPage" href="http://blog.wendell.pro/2021/01/19/csp-%E7%BB%95%E8%BF%87-%E6%80%BB%E7%BB%93-md/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/avatar.jpg">
+      <meta itemprop="name" content="Wendell">
+      <meta itemprop="description" content="Wendell blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wendell's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/19/csp-%E7%BB%95%E8%BF%87-%E6%80%BB%E7%BB%93-md/" class="post-title-link" itemprop="url">csp_绕过_总结.md</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-01-19 15:01:00" itemprop="dateCreated datePublished" datetime="2021-01-19T15:01:00+08:00">2021-01-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-02-25 15:17:24" itemprop="dateModified" datetime="2021-02-25T15:17:24+08:00">2021-02-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%AE%89%E5%85%A8/" itemprop="url" rel="index"><span itemprop="name">前端安全</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>内容安全策略,<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP,%E6%8F%90%E4%BE%9Bxss%E6%94%BB%E5%87%BB%E7%9A%84%E4%BF%9D%E6%8A%A4">https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP,提供xss攻击的保护</a></p>
+<p>服务器返回的http中带着 <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Security-Policy"><code>Content-Security-Policy</code></a> HTTP头部 ,或者html页面中带着</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta http-equiv&#x3D;&quot;Content-Security-Policy&quot; content&#x3D;&quot;default-src &#39;self&#39;; img-src https:&#x2F;&#x2F;*; child-src &#39;none&#39;;&quot;&gt;</span><br></pre></td></tr></table></figure>
+<p>csp策略主要指定跨域内嵌资源如script,img的访问策略</p>
+<p>其中iframe的策略也可以由x-frame-options头指定</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/01/19/csp-%E7%BB%95%E8%BF%87-%E6%80%BB%E7%BB%93-md/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="">
+    <link itemprop="mainEntityOfPage" href="http://blog.wendell.pro/2021/01/18/pythonn-%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8-%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/avatar.jpg">
+      <meta itemprop="name" content="Wendell">
+      <meta itemprop="description" content="Wendell blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wendell's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/18/pythonn-%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8-%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">python_沙箱逃逸_绕过总结</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-01-18 14:48:05" itemprop="dateCreated datePublished" datetime="2021-01-18T14:48:05+08:00">2021-01-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-02-25 15:18:30" itemprop="dateModified" datetime="2021-02-25T15:18:30+08:00">2021-02-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ctf/" itemprop="url" rel="index"><span itemprop="name">ctf</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>本文首发与先知社区:<a target="_blank" rel="noopener" href="https://xz.aliyun.com/t/9178">https://xz.aliyun.com/t/9178</a></p>
+</blockquote>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>学弟写了个Python的qq机器人,有代码执行,试着逃逸了一波,顺变想总结一下以前看到的用<code>__code__</code>逃逸的姿势,所以有了这篇文章.<br>沙箱逃逸,就是在一个受限制的python环境中,绕过现在和过滤达到更高权限,或者geshell的过程</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/01/18/pythonn-%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8-%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="">
+    <link itemprop="mainEntityOfPage" href="http://blog.wendell.pro/2020/11/25/flask-ssti-%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/avatar.jpg">
+      <meta itemprop="name" content="Wendell">
+      <meta itemprop="description" content="Wendell blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Wendell's blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/11/25/flask-ssti-%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">flask_ssti_绕过总结</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-11-25 10:10:37" itemprop="dateCreated datePublished" datetime="2020-11-25T10:10:37+08:00">2020-11-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-02-25 14:57:00" itemprop="dateModified" datetime="2021-02-25T14:57:00+08:00">2021-02-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ctf/" itemprop="url" rel="index"><span itemprop="name">ctf</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>本文首发与先知社区: <a target="_blank" rel="noopener" href="https://xz.aliyun.com/t/8029">https://xz.aliyun.com/t/8029</a><br>关于flask的中ssti的绕过文章还是很多的,但分析这样构造的原因还是挺少的,恰巧最近要出题,所以写一篇文章分析一下</p>
+</blockquote>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/11/25/flask-ssti-%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -308,20 +641,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
